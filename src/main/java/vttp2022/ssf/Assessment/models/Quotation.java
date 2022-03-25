@@ -22,7 +22,7 @@ public class Quotation {
     public Map<String, Float> getQuotations() {
         return quotations;
     }
-    public void setQuotations(Map<String, Float> quotations) {
+    public void setQuotations(Map<String,Float> quotations ) {
         this.quotations = quotations;
     }
     public void addQuotation(String item, Float unitPrice) {
